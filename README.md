@@ -4,7 +4,7 @@
 
 AI for Control of Soft Robotics using Machine Learning and Inverse Kinematics
 
- #### Pat projects so far:
+ #### Past projects so far:
 
  - Statistical **Python** SolidWorks and medical paper data analysis
 
