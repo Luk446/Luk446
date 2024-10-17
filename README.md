@@ -1,6 +1,10 @@
 # Projects + Uni work
 
- #### Projects so far:
+## Current work
+
+AI for Control of Soft Robotics using Machine Learning and Inverse Kinematics
+
+ #### Pat projects so far:
 
  - Statistical **Python** SolidWorks and medical paper data analysis
 
