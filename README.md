@@ -2,7 +2,7 @@
 
 ## Current work
 
-AI for Control of Soft Robotics using Machine Learning and Inverse Kinematics
+AI for Control of Soft Robotics using Machine Learning and Inverse Kinematics (python and MATLAB)
 
  #### Past projects so far:
 
