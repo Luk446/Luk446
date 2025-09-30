@@ -2,9 +2,13 @@
 
 ## Current work
 
-AI for Control of Soft Robotics using Machine Learning and Inverse Kinematics (Python and MATLAB)
+- Learning ROS Catkin in Noetic Linux
+
+- Machine learning classification in medical imaging
 
  #### Past projects so far:
+
+ - AI for Control of Soft Robotics using Machine Learning and Inverse Kinematics (Python and MATLAB)
 
  - Statistical **Python** SolidWorks and medical paper data analysis
 
