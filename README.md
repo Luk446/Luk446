@@ -1,6 +1,6 @@
 # Projects + Uni work
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Luk446&layout=compact)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Luk446&theme=tokyonight)
 
 ## Current work
 
