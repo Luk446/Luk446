@@ -6,8 +6,8 @@ Over the course of my undergraduate studies, I have developed a broad range of e
 
 Now I am studying at Heriot-Watt University doing my Masters in Robotics with Industrial Application
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Arms_of_the_University_of_Dundee.svg" alt="University of Dundee" width="80"/>
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Heriot-Watt_University_arms.svg" alt="Heriot-Watt University" width="80"/>
+<!-- ! <img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Arms_of_the_University_of_Dundee.svg" alt="University of Dundee" width="80"/> -->
+<!-- ! <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Heriot-Watt_University_arms.svg" alt="Heriot-Watt University" width="80"/> -->
 
 ## My top skills 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
