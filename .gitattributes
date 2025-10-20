@@ -1,0 +1,4 @@
+# Mark make / cmake build files as "generated" so GitHub Linguist ignores them
+**/Makefile linguist-generated=true
+**/CMakeLists.txt linguist-generated=true
+**/*.cmake linguist-generated=true
