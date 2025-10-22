@@ -18,7 +18,6 @@ Now, I am studying at Heriot-Watt University, doing a Masters in Robotics with I
 
 
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Luk446&theme=tokyonight&layout=compact)
 
 ### My biggest project (so far)
 - [Soft Robotics Inverse Kinematics MLPR AI](https://github.com/Luk446/InverseKinematics_MachineLearning)
