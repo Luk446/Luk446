@@ -1,9 +1,1 @@
-# Ignore make / cmake build files from language stats
-**/Makefile linguist-generated=true
-**/makefile linguist-generated=true
-**/CMakeLists.txt linguist-generated=true
-**/*.cmake linguist-generated=true
 
-# If you prefer treating them as vendored/generated:
-# **/Makefile linguist-vendored=true
-# **/CMakeLists.txt linguist-vendored=true
