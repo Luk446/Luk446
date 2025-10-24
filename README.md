@@ -23,7 +23,7 @@ Now, I am studying at Heriot-Watt University, doing a Masters in Robotics with I
 
 ## Current work / Learning 
 
-- Learning ROS Catkin in Noetic Linux
+- Learning ROS Catkin in Noetic Linux [Repo](https://github.com/Luk446/ROS_Practice)
 
 - Machine learning classification in medical imaging
 
