@@ -27,6 +27,8 @@ Now, I am studying at Heriot-Watt University, doing a Masters in Robotics with I
 
 - Machine learning classification in medical imaging
 
+- A* ROS Path planning [Repo](https://github.com/Luk446/AStarPathPlanningROS)
+
 
  #### Past projects:
 
