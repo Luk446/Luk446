@@ -2,6 +2,8 @@
 
 Over the course of my undergraduate studies, I have developed a broad range of engineering skills both through curricular and extracurricular programs spanning multiple fields. At university, I have worked on and led multiple projects that demonstrate my abilities. During an industry-led project with Össur, I contributed to the mechanical design and user application of an upper limb prosthesis. Most recently, I worked with a team to develop an automated endo-robotic solution. During my second year, my work ethic was recognised by my advisor and I was awarded the Open Prize for Biomedical Engineering.
 
+My [CV](https://github.com/Luk446/LaTexCV/blob/main/build/cv.pdf)
+
 Now, I am studying at Heriot-Watt University, doing a Masters in Robotics with Industrial Application
 
 <!-- ! <img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Arms_of_the_University_of_Dundee.svg" alt="University of Dundee" width="80"/> -->
