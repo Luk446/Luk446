@@ -31,6 +31,10 @@ Now, I am studying at Heriot-Watt University, doing a Masters in Robotics with I
 
 - A* ROS Path planning [Repo](https://github.com/Luk446/AStarPathPlanningROS)
 
+- Genetic Algorithm tuning [Repo](https://github.com/Luk446/IRProjectLearning)
+
+- End-to-End IoT system design
+
 
  #### Past projects:
 
