@@ -25,7 +25,7 @@ Now, I am studying at Heriot-Watt University, doing a Masters in Robotics with I
 
 ## Current work / Learning 
 
-- Learning ROS Catkin in Noetic Linux [Learning](https://github.com/Luk446/ROS_Practice),[A*](https://github.com/Luk446/AStarPathPlanningROS),[Kalman Filter](https://github.com/Luk446/Kalman_filter_ROS1)
+- Learning ROS Catkin in Noetic Linux [Learning](https://github.com/Luk446/ROS_Practice) , [A*](https://github.com/Luk446/AStarPathPlanningROS) , [Kalman Filter](https://github.com/Luk446/Kalman_filter_ROS1)
 
 - Machine learning classification in medical imaging
 
