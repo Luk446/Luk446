@@ -25,15 +25,13 @@ Now, I am studying at Heriot-Watt University, doing a Masters in Robotics with I
 
 ## Current work / Learning 
 
-- Learning ROS Catkin in Noetic Linux [Repo](https://github.com/Luk446/ROS_Practice)
+- Learning ROS Catkin in Noetic Linux [Learning](https://github.com/Luk446/ROS_Practice),[A*](https://github.com/Luk446/AStarPathPlanningROS),[Kalman Filter](https://github.com/Luk446/Kalman_filter_ROS1)
 
 - Machine learning classification in medical imaging
 
-- A* ROS Path planning [Repo](https://github.com/Luk446/AStarPathPlanningROS)
-
 - Genetic Algorithm tuning [Repo](https://github.com/Luk446/IRProjectLearning)
 
-- End-to-End IoT system design [ESP-NOW](https://github.com/Luk446/ArduinoGPProjectDir) , [MQTT Node-RED app](https://github.com/Luk446/First_End2End_IoT)
+- End-to-End IoT system design [ESP-NOW](https://github.com/Luk446/ArduinoGPProjectDir) , [MQTT Node-RED App](https://github.com/Luk446/First_End2End_IoT)
 
 
  #### Past projects:
