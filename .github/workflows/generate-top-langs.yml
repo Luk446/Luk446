@@ -1,0 +1,39 @@
+name: Generate Top Languages SVG
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2 * * 0' # weekly UTC
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate top-langs SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/generate_top_langs.py --username Luk446 --output assets/top-langs.svg
+
+      - name: Commit and push SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/top-langs.svg
+          git commit -m "chore: update top-langs.svg" || echo "No changes to commit"
+          git push
