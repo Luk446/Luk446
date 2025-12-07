@@ -7,10 +7,31 @@ Writes an SVG to the provided output path.
 import os
 import sys
 import argparse
+import time
 import requests
 from collections import Counter
 
 GITHUB_API = "https://api.github.com"
+
+
+def api_get_with_retry(session, url, params=None, max_retries=3):
+    """Make a GET request with exponential backoff retry on rate limit."""
+    for attempt in range(max_retries):
+        r = session.get(url, params=params)
+        if r.status_code == 403 and 'X-RateLimit-Remaining' in r.headers:
+            remaining = int(r.headers.get('X-RateLimit-Remaining', 0))
+            if remaining == 0:
+                reset_time = int(r.headers.get('X-RateLimit-Reset', 0))
+                sleep_time = max(reset_time - time.time(), 0) + 1
+                if attempt < max_retries - 1:
+                    print(f"Rate limit hit, waiting {sleep_time:.0f}s...")
+                    time.sleep(sleep_time)
+                    continue
+        r.raise_for_status()
+        return r
+    # If we get here, all retries failed
+    r.raise_for_status()
+    return r
 
 
 def get_repos(username, session):
@@ -19,8 +40,7 @@ def get_repos(username, session):
     while True:
         url = f"{GITHUB_API}/users/{username}/repos"
         params = {"per_page": 100, "page": page, "type": "owner", "sort": "pushed"}
-        r = session.get(url, params=params)
-        r.raise_for_status()
+        r = api_get_with_retry(session, url, params)
         data = r.json()
         if not data:
             break
@@ -37,16 +57,18 @@ def aggregate_languages(repos, session, include_forks=False):
         langs_url = repo.get("languages_url")
         if not langs_url:
             continue
-        r = session.get(langs_url)
-        if r.status_code != 200:
+        try:
+            r = api_get_with_retry(session, langs_url)
+            data = r.json()
+            for lang, bytes_count in data.items():
+                lang_counts[lang] += bytes_count
+        except requests.exceptions.RequestException:
+            # Skip this repo if we can't get language data
             continue
-        data = r.json()
-        for lang, bytes_count in data.items():
-            lang_counts[lang] += bytes_count
     return lang_counts
 
 
-def make_svg(top_langs, username, width=600, bar_height=18, gap=8, padding=10):
+def make_svg(top_langs, width=600, bar_height=18, gap=8, padding=10):
     if not top_langs:
         svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="100" viewBox="0 0 {width} 100">
   <rect width="{width}" height="100" fill="#1a1b27"/>
@@ -100,7 +122,7 @@ def main():
     token = os.environ.get("GITHUB_TOKEN")
     session = requests.Session()
     if token:
-        session.headers.update({"Authorization": f"token {token}"})
+        session.headers.update({"Authorization": f"Bearer {token}"})
     session.headers.update({"Accept": "application/vnd.github.v3+json"})
 
     try:
@@ -118,9 +140,11 @@ def main():
             top_langs = lang_counts.most_common(args.top)
             print(f"Top languages: {', '.join(lang for lang, _ in top_langs)}")
 
-        svg_content = make_svg(top_langs, args.username)
+        svg_content = make_svg(top_langs)
         
-        os.makedirs(os.path.dirname(args.output), exist_ok=True)
+        output_dir = os.path.dirname(args.output)
+        if output_dir:
+            os.makedirs(output_dir, exist_ok=True)
         with open(args.output, 'w') as f:
             f.write(svg_content)
         
