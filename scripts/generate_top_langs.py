@@ -15,9 +15,11 @@ GITHUB_API = "https://api.github.com"
 
 
 def api_get_with_retry(session, url, params=None, max_retries=3):
-    """Make a GET request with exponential backoff retry on rate limit."""
+    """Make a GET request with rate limit aware retry."""
+    last_response = None
     for attempt in range(max_retries):
         r = session.get(url, params=params)
+        last_response = r
         if r.status_code == 403 and 'X-RateLimit-Remaining' in r.headers:
             remaining = int(r.headers.get('X-RateLimit-Remaining', 0))
             if remaining == 0:
@@ -30,8 +32,9 @@ def api_get_with_retry(session, url, params=None, max_retries=3):
         r.raise_for_status()
         return r
     # If we get here, all retries failed
-    r.raise_for_status()
-    return r
+    if last_response:
+        last_response.raise_for_status()
+    raise requests.exceptions.RequestException("Request failed after retries")
 
 
 def get_repos(username, session):
