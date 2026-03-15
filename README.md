@@ -17,16 +17,20 @@ Now, I am studying at Heriot-Watt University, doing a Masters in Robotics with I
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
 
 ### My biggest project (so far)
 - [Soft Robotics Inverse Kinematics MLPR AI](https://github.com/Luk446/InverseKinematics_MachineLearning)
 
 ## Current work / Learning 
 
+- FreeRTOS in Embedded systems [Real time operating systems](https://github.com/Luk446/Embedded_freeRTOS)
+
 - Learning ROS Catkin in Noetic Linux [Learning](https://github.com/Luk446/ROS_Practice) , [A*](https://github.com/Luk446/AStarPathPlanningROS) , [Extended Kalman Filter](https://github.com/Luk446/Kalman_filter_ROS1)
 
-- Machine learning classification in medical imaging [MRI](https://github.com/Luk446/MRI_Classifier)
-
+- Machine learning classification in medical imaging [MRI](https://github.com/Luk446/MRI_Classifier) and [Competition Datasets](https://github.com/Luk446/MachineVisionPractice)
+ 
 - Genetic Algorithm tuning [Repo](https://github.com/Luk446/IRProjectLearning)
 
 - End-to-End IoT system design [ESP-NOW](https://github.com/Luk446/ArduinoGPProjectDir) - Now with [Website!](https://luk446.github.io/ArduinoGPProjectDir/) , [MQTT Node-RED App](https://github.com/Luk446/First_End2End_IoT)
