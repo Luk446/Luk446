@@ -6,9 +6,10 @@ CV is shown at bottom of readme.
 
 Now, I am studying at Heriot-Watt University, doing a Masters in Robotics with Industrial Application
 
-![Stats](https://github-readme-stats.vercel.app/api?username=Luk446&show_icons=true&theme=tokyonight)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Luk446&layout=compact&theme=tokyonight)
-
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Luk446&show_icons=true&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Luk446&layout=compact&theme=tokyonight" />
+</p>
 <!-- ! <img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Arms_of_the_University_of_Dundee.svg" alt="University of Dundee" width="80"/> -->
 <!-- ! <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Heriot-Watt_University_arms.svg" alt="Heriot-Watt University" width="80"/> -->
 
