@@ -29,7 +29,7 @@ Now, I am studying at Heriot-Watt University, doing a Masters in Robotics with I
 
 ## Current work / Learning 
 
-- FreeRTOS in Embedded systems [Real time operating systems](https://github.com/Luk446/Embedded_freeRTOS)
+- FreeRTOS in Embedded systems (ESP32) [Real Time Super Loop](https://github.com/Luk446/RealTime_SuperLoop_ESP32) and [FreeRTOS priority based](https://github.com/Luk446/FreeRTOS_ESP32)
 
 - Learning ROS Catkin in Noetic Linux [Learning](https://github.com/Luk446/ROS_Practice) , [A*](https://github.com/Luk446/AStarPathPlanningROS) , [Extended Kalman Filter](https://github.com/Luk446/Kalman_filter_ROS1)
 
