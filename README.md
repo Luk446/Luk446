@@ -1,54 +1,94 @@
-## AboutMe
+## About Me
 
-Working as R+D software intern @Ossur
+- Robotics and ML engineer focused on healthcare robotics, assistive technologies, and autonomous systems.
+- MSc Robotics student at Heriot-Watt University, with experience in MATLAB, Python, ROS, and machine learning.
+- Interested in signal processing, intelligent control, embedded systems, and turning research ideas into working solutions.
 
-Over the course of my undergraduate studies, I have developed a broad range of engineering skills both through curricular and extracurricular programs spanning multiple fields. At university, I have worked on and led multiple projects that demonstrate my abilities. During an industry-led project with Össur, I contributed to the mechanical design and user application of an upper limb prosthesis. Most recently, I worked with a team to develop an automated endo-robotic solution. During my second year, my work ethic was recognised by my advisor and I was awarded the Open Prize for Biomedical Engineering.
-
-CV is shown at bottom of readme.
-
-Now, I am studying at Heriot-Watt University, doing a Masters in Robotics with Industrial Application
-
-## My top skills 
+## My top skills
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
 ![ROS](https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=robot-operating-system&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-### My biggest project (so far)
-- [Soft Robotics Inverse Kinematics MLPR AI](https://github.com/Luk446/InverseKinematics_MachineLearning)
+--------------------------------------------------------------------
+													FEATURED PROJECT
+--------------------------------------------------------------------
 
-## Current work / Learning 
+### Soft Robotics Inverse Kinematics MLPR AI
 
-- FreeRTOS in Embedded systems (ESP32) [Real Time Super Loop](https://github.com/Luk446/RealTime_SuperLoop_ESP32) and [FreeRTOS priority based](https://github.com/Luk446/FreeRTOS_ESP32)
+My largest project so far: a machine-learning approach to controlling a
+soft robotic system through inverse kinematics. The project combines Python,
+MATLAB, data analysis, model development, and robotics-focused evaluation.
 
-- Learning ROS Catkin in Noetic Linux [Learning](https://github.com/Luk446/ROS_Practice) , [A*](https://github.com/Luk446/AStarPathPlanningROS) , [Extended Kalman Filter](https://github.com/Luk446/Kalman_filter_ROS1)
+**Repository:** [Inverse Kinematics Machine Learning](https://github.com/Luk446/InverseKinematics_MachineLearning)
 
-- Machine learning classification in medical imaging [MRI](https://github.com/Luk446/MRI_Classifier) and [Competition Datasets](https://github.com/Luk446/MachineVisionPractice)
- 
-- Genetic Algorithm tuning [Repo](https://github.com/Luk446/IRProjectLearning)
+--------------------------------------------------------------------
+													 CURRENT WORK
+--------------------------------------------------------------------
 
-- End-to-End IoT system design [ESP-NOW](https://github.com/Luk446/ArduinoGPProjectDir) - Now with [Website!](https://luk446.github.io/ArduinoGPProjectDir/) , [MQTT Node-RED App](https://github.com/Luk446/First_End2End_IoT)
+The projects below reflect the areas I am actively developing: embedded
+systems, robotics software, machine learning, and connected devices.
 
+### Embedded systems and real-time software
 
- #### Past projects:
+- Exploring FreeRTOS on the ESP32, including task scheduling, priorities,
+	and real-time execution patterns.
+- Building a [real-time super loop](https://github.com/Luk446/RealTime_SuperLoop_ESP32)
+	and a [priority-based FreeRTOS application](https://github.com/Luk446/FreeRTOS_ESP32).
 
- - AI for Control of Soft Robotics using Machine Learning and Inverse Kinematics (Python and MATLAB)
+### ROS and autonomous robotics
 
- - Statistical **Python** SolidWorks and medical paper data analysis
+- Learning and applying ROS 1 / Catkin in a Linux environment through
+	[ROS practice projects](https://github.com/Luk446/ROS_Practice).
+- Implementing robotics algorithms including [A* path planning](https://github.com/Luk446/AStarPathPlanningROS)
+	and an [Extended Kalman Filter](https://github.com/Luk446/Kalman_filter_ROS1).
 
-- **Python** based surgical trainer / simulator for laparoscopic cholecystectomy
+### Machine learning and medical imaging
 
-- **C# .NET Framework** windows user app for acclimation with a prosthetic device
+- Developing classification workflows for medical imaging through an
+	[MRI classification project](https://github.com/Luk446/MRI_Classifier).
+- Practising computer vision and model evaluation with
+	[competition datasets](https://github.com/Luk446/MachineVisionPractice).
+- Exploring [genetic algorithm optimisation](https://github.com/Luk446/IRProjectLearning)
+	for model and parameter tuning.
 
-- **C# .NET Framework** windows app for mechanical devlopment using extended period cycle testing
+### End-to-end IoT systems
 
-- **Arduino/C++** Mechatronic Coding for prosthetic finger
+- Designing connected systems using ESP-NOW, web interfaces, MQTT, and
+	Node-RED.
+- [ESP-NOW system](https://github.com/Luk446/ArduinoGPProjectDir) with a
+	[project website](https://luk446.github.io/ArduinoGPProjectDir/).
+- [MQTT and Node-RED application](https://github.com/Luk446/First_End2End_IoT)
+	for connecting devices, services, and user-facing controls.
 
-- **Arduino/C++** + Java processing using EMG to actuate upper limb prosthesis
+--------------------------------------------------------------------
+													 PAST PROJECTS
+--------------------------------------------------------------------
+
+### Robotics, prosthetics, and assistive technology
+
+- **AI control of soft robotics:** machine learning and inverse kinematics
+	using Python and MATLAB.
+- **Prosthetic finger:** mechatronic control and embedded programming using
+	Arduino and C++.
+- **Upper-limb prosthesis:** EMG-driven actuation using Arduino, C++, and
+	Java Processing.
+- **Prosthetic acclimation application:** a C# .NET Framework Windows
+	application designed to support familiarisation with a prosthetic device.
+- **Mechanical development tool:** a C# .NET Framework Windows application
+	for extended-period cycle testing.
+
+### Data analysis and medical simulation
+
+- **Surgical trainer and simulator:** a Python-based application for
+	practising laparoscopic cholecystectomy workflows.
+- **Engineering and medical data analysis:** statistical analysis in Python
+	using SolidWorks data and medical research papers.
 
 ![CV!](https://github.com/Luk446/CVGPJ/blob/master/pdf_as_jpg.jpg)
