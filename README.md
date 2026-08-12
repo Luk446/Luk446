@@ -18,7 +18,7 @@
 
 --------------------------------------------------------------------
 													FEATURED PROJECT
---------------------------------------------------------------------
+
 
 ### Soft Robotics Inverse Kinematics MLPR AI
 
@@ -30,7 +30,7 @@ MATLAB, data analysis, model development, and robotics-focused evaluation.
 
 --------------------------------------------------------------------
 													 CURRENT WORK
---------------------------------------------------------------------
+
 
 The projects below reflect the areas I am actively developing: embedded
 systems, robotics software, machine learning, and connected devices.
@@ -69,7 +69,7 @@ systems, robotics software, machine learning, and connected devices.
 
 --------------------------------------------------------------------
 													 PAST PROJECTS
---------------------------------------------------------------------
+
 
 ### Robotics, prosthetics, and assistive technology
 
