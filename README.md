@@ -8,13 +8,6 @@ CV is shown at bottom of readme.
 
 Now, I am studying at Heriot-Watt University, doing a Masters in Robotics with Industrial Application
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Luk446&show_icons=true&theme=tokyonight" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Luk446&layout=compact&theme=tokyonight" />
-</p>
-<!-- ! <img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Arms_of_the_University_of_Dundee.svg" alt="University of Dundee" width="80"/> -->
-<!-- ! <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Heriot-Watt_University_arms.svg" alt="Heriot-Watt University" width="80"/> -->
-
 ## My top skills 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
