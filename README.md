@@ -1,5 +1,7 @@
 ## About Me
 
+### Software Engineer @ Frontier Robotics doing Underwater Autonomy
+
 - Robotics and ML engineer focused on healthcare robotics, assistive technologies, and autonomous systems.
 - MSc Robotics student at Heriot-Watt University, with experience in MATLAB, Python, ROS, and machine learning.
 - Interested in signal processing, intelligent control, embedded systems, and turning research ideas into working solutions.
